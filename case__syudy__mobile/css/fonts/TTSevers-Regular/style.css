@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'TT Severs ';
+    src: local('TT Severs  Regular'), local('TT-Severs--Regular'),
+        url('TTSevers-Regular.woff2') format('woff2'),
+        url('TTSevers-Regular.woff') format('woff'),
+        url('TTSevers-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
