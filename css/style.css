@@ -76,10 +76,11 @@ border: 1px solid #EBEBEB;
 }
 .wrapper.container-fluid{
     position: relative;
-    min-width: 375px;
+    width: 375px;
     height: 11972px;
     background: #F7F7F7;
     overflow: hidden;
+   
 }
 
 
@@ -89,6 +90,7 @@ border: 1px solid #EBEBEB;
     align-items: flex-start;
     padding: 0px;
     position: absolute;
+    width: 375px;
     max-height: 11777.42px;
     left: 0px;
     right: -1px;
@@ -101,6 +103,16 @@ border: 1px solid #EBEBEB;
     display: flex;
 }
 @media screen and (min-width:768px) {
+    .wrapper.container-fluid{
+        display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: relative;
+width: 1440px;
+height: 7342px;
+background: #F7F7F7;
+    }
     .row.status__bar{
     display: none;
     position: absolute;
@@ -118,7 +130,7 @@ border: 1px solid #EBEBEB;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-min-width: 375px;
+width: 375px;
 height: auto;
 background: #FFFFFF;
 order: 0;
@@ -265,7 +277,11 @@ height: 12px;
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
+
+    .navbar__section{
+        width: 1440px;
+    }
     .row .scroll__box{
     position: relative;
     top: 0;
@@ -344,7 +360,7 @@ top: 6px;
 /* HERO-SECTION */
 
 .row.hero__section{
-    max-width: 1440px;
+    width: 375px;
     height: 654px;
     order: 2;
     position: relative;
@@ -520,8 +536,13 @@ background: linear-gradient(180deg, rgba(21, 35, 56, 0.4) 0%, rgba(17, 29, 46, 0
 }
 
 
-@media screen and (max-width:768px){
+@media screen and (min-width:768px){
+    .row.statistics{
+        width: 1440px;
+
+    }
     .row.hero__section{
+        width: 1440px;
         height: 489px;
     }
    
